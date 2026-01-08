@@ -6,11 +6,20 @@ __pycache__/
 # C extensions
 *.so
 
+# Jupyter Notebook
+.ipynb_checkpoints/
+
+# Joblib / cache
+cachedir/
+
+# Python cache (optional but recommended)
+__pycache__/
+*.pyc
+
 # Distribution / packaging
 .Python
 build/
 develop-eggs/
-.ipynb_checkpoints/
 dist/
 downloads/
 eggs/
